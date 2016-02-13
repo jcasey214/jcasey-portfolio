@@ -1,0 +1,15 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav li{
+  font-size: 2em;
+}
+
+nav.navbar{
+  background-color: rgb(44, 64, 16);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: rgb(78, 122, 16);
+}
