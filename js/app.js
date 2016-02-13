@@ -1,4 +1,4 @@
-var app = angular.module('portfolio', []);
+var app = angular.module('portfolio', ['ngRoute', 'ui.bootstrap']);
 
 app.config(function($routeProvider, $locationProvider){
   $routeProvider
@@ -19,3 +19,7 @@ app.config(function($routeProvider, $locationProvider){
   });
   $locationProvider.html5Mode(true);
 });
+
+// function NavBarCtrl($scope){
+//   $scope.isCollapsed = true;
+// }

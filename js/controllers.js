@@ -1,4 +1,4 @@
-app.controller('About Controller', function($scope) {
+app.controller('AboutController', function($scope) {
   $scope.greeting = "About Page";
 });
 
@@ -8,4 +8,8 @@ app.controller('ResumeController', function($scope){
 
 app.controller('ProjectsController', function($scope){
   $scope.greeting = "Projects";
-})
+});
+
+app.controller('BodyController', function($scope){
+  $scope.greeting = "Hello World";
+});
