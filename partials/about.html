@@ -4,7 +4,9 @@
     {{aboutSection[currentIndex]}}
   </p>
   <div class="arrows">
-    <i class="fa fa-arrow-circle-left" ng-click="currentIndex = currentIndex - 1" ng-hide="currentIndex === 0"></i>
-    <i class="fa fa-arrow-circle-right" ng-click="currentIndex = currentIndex + 1" ng-hide="currentIndex === 3"></i>
+    <div>
+      <i class="fa fa-arrow-circle-left" ng-click="currentIndex = currentIndex - 1" ng-hide="currentIndex === 0"></i>
+      <i class="fa fa-arrow-circle-right" ng-click="currentIndex = currentIndex + 1" ng-hide="currentIndex === 3"></i>
+    </div>
   </div>
 </section>

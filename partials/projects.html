@@ -1,1 +1,17 @@
-<h1>Projects</h1>
+<section class="projects">
+  <div ng-repeat="project in projectList">
+    <img ng-src="{{project.thumb}}">
+    <div>
+      <div class="projectHeader">
+        <h1>{{project.name}}</h1>
+        <div class=projectLinks>
+          <a ng-href="{{project.github}}"><i class="fa fa-github"></i></a>
+          <a ng-href="{{project.url}}"><i class="fa fa-globe"></i></a>
+        </div>
+      </div>
+      <h2><em>{{project.technologies}}</em></h2>
+      <p>{{project.description}}</p>
+      </div>
+      <hr>
+    </div>
+</section>
