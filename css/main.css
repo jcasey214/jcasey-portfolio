@@ -186,12 +186,13 @@ section.about{
 
 .about .arrows{
   width: 80vw;
-  margin-left: 50px;
+  margin-left: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 5vh;
+  flex-wrap: nowrap;
 }
 
 .arrows>div{
@@ -206,6 +207,7 @@ section.about{
 
 .arrows i:hover{
   cursor: pointer;
+  color: rgb(0, 178, 209);
 }
 
 .fa-arrow-circle-left{
@@ -214,6 +216,34 @@ section.about{
 
 .fa-arrow-circle-right{
   float: right;
+}
+
+section.resume{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  margin-right: 30px;
+  width: 70vw;
+}
+
+.resume object, .resume img{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+   filter: url(#drop-shadow);
+   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+   overflow: visible;
+}
+
+.techIcons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 section.projects{
@@ -306,5 +336,11 @@ proceed at your own risk*/
   }
   section.home{
     top: 50vh;
+  }
+  .about .arrows {
+    margin-left: 10px;
+  }
+  .arrows>div{
+    width: 90%;
   }
 }

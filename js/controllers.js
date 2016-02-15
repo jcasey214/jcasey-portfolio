@@ -13,13 +13,13 @@ var projectList = [{
   github: 'http://www.github.com/griffinry',
   url: 'http://www.griffinry.com'
 },
-
 {
   name: 'Stumblr',
-  technologies: 'test',
-  description: 'test',
-  github: 'http://www.github.com/jcasey214',
-  url: 'test'
+  thumb: 'https://youthministry360.com/sites/youthministry360.com/files/product/samples/coming-soon-placeholder_3.png',
+  technologies: 'React, MongoDB, Express, PassportJS, Browserify',
+  description: 'Stumblr is a social barhopping route-planner app',
+  github: 'http://www.github.com/designateddrinkers/stumblr',
+  url: 'http://www.github.com/designateddrinkers/stumblr'
 }];
 
 var aboutSection = [
