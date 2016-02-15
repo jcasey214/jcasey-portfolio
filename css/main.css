@@ -98,6 +98,7 @@ nav ul li a.active:hover {
 }
 
 main{
+  width: 100vw;
 }
 
 .selectedPage li{
@@ -112,10 +113,16 @@ i.fa-home{
 
 section.home{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   position: absolute;
-  top: 130px;
-  left: 50px;
+  top: 60vh;
+  left: 10vw;
+  width: 80vw;
+}
+
+.home div{
+  width: 100%;
 }
 
 section h1{
@@ -124,21 +131,58 @@ section h1{
 
 .home h2 {
   font-size: 6vh;
+  color: rgb(0, 178, 209);
 }
 
 .home h3{
   font-size: 4vh;
 }
 
+.homeHero{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('../assets/homeHero.png');
+  background-size: cover;
+  box-shadow: 0 5px 10px 2px rgba(55, 55, 55, 0.3);
+}
+
+.aboutHero{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('../assets/hiking.png');
+  background-size: cover;
+  box-shadow: 0 5px 10px 2px rgba(55, 55, 55, 0.3);
+}
+
+.aboutHero img{
+  position: absolute;
+  width: inherit;
+  height: auto;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
 section.about{
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 130px;
-  left: 50px;
+  top: 60vh;
+  left: 10vw;
   margin-right: 30px;
   width: 80vw;
 }
+
 
 .about .arrows{
   width: 80vw;
@@ -209,6 +253,10 @@ section.projects{
   font-style: italic;
 }
 
+.projectLinks{
+  margin-top: 5px;
+}
+
 .projectLinks i, .projectLinks i:visited, .projectLinks i:link{
   font-size: 2em;
   color: black;
@@ -246,5 +294,17 @@ proceed at your own risk*/
   .projects>div>div{
     margin-left: 0;
     margin-top: 10px;
+  }
+  .homeHero{
+    height: 40vh;
+  }
+  .aboutHero{
+    height: 40vh;
+  }
+  section.about{
+    top: 50vh;
+  }
+  section.home{
+    top: 50vh;
   }
 }
