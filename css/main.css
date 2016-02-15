@@ -149,6 +149,7 @@ section h1{
   background-image: url('../assets/homeHero.png');
   background-size: cover;
   box-shadow: 0 5px 10px 2px rgba(55, 55, 55, 0.3);
+  z-index: -1;
 }
 
 .aboutHero{
@@ -162,6 +163,7 @@ section h1{
   background-image: url('../assets/hiking.png');
   background-size: cover;
   box-shadow: 0 5px 10px 2px rgba(55, 55, 55, 0.3);
+  z-index: -1;
 }
 
 .aboutHero img{
@@ -171,6 +173,7 @@ section h1{
   overflow: hidden;
   margin: 0;
   padding: 0;
+  z-index: -1;
 }
 
 section.about{
@@ -226,6 +229,7 @@ section.resume{
   left: 10vw;
   margin-right: 30px;
   width: 70vw;
+  overflow: visible;
 }
 
 .resume object, .resume img{
@@ -244,6 +248,7 @@ section.resume{
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  overflow: visible;
 }
 
 section.projects{
