@@ -309,7 +309,7 @@ section.projects{
 /*media queries
 proceed at your own risk*/
 
-@media screen and (max-width: 582px){
+@media only screen and (min-width : 375px) and (max-width : 667px){
   header{
     height: 110px;
   }
