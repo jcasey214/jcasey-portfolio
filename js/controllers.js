@@ -15,9 +15,9 @@ var projectList = [{
 },
 {
   name: 'Stumblr',
-  thumb: 'https://youthministry360.com/sites/youthministry360.com/files/product/samples/coming-soon-placeholder_3.png',
+  thumb: 'assets/stumblrScaled.png',
   technologies: 'React, MongoDB, Express, PassportJS, Browserify',
-  description: 'Stumblr is a social barhopping route-planner app',
+  description: 'Stumblr is a social barhopping app. It utilizes the Google Maps API to find bars near your current location or any location you choose to enter. Twitter functionality is integrated and allows users to tweet when they arrive at a bar on their list and tweet the badges they earn for different benchmarks. We built the app with a mobile first design and utilized React and MongoDB for performance.',
   github: 'http://www.github.com/designateddrinkers/stumblr',
   url: 'http://www.github.com/designateddrinkers/stumblr'
 }];

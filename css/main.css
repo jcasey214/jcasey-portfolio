@@ -226,7 +226,7 @@ section.resume{
   flex-direction: column;
   position: absolute;
   top: 20vh;
-  left: 10vw;
+  left: 15vw;
   margin-right: 30px;
   width: 70vw;
   overflow: visible;
@@ -254,7 +254,11 @@ section.resume{
 section.projects{
   position: absolute;
   top: 120px;
-  left: 50px;
+  left: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .projectHeader{
@@ -268,13 +272,14 @@ section.projects{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   margin-top: 30px;
+  margin-bottom: 30px;
   align-items: center;
 }
 
 .projects>div>div{
-  width: 55%;
+  width: 60%;
   margin-left: 5%;
 }
 
@@ -329,6 +334,7 @@ proceed at your own risk*/
   .projects>div>div{
     margin-left: 0;
     margin-top: 10px;
+    width: 80vw;
   }
   .homeHero{
     height: 40vh;
