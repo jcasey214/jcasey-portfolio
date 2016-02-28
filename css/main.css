@@ -47,31 +47,29 @@ nav ul li {
   /*margin: 5px 10px;*/
   font-size: 1.5rem;
   text-decoration: none;
-  color: black;
+  color: rgb(65, 64, 66);
   height: 100%;
   padding: 10px 10px 20px 10px;
 }
 
 nav ul li a:link, nav ul li a:visited {
   text-decoration: none;
-  color: black;
+  color: rgb(65, 64, 66);
 }
 
 nav ul li a.active {
-  background-color: rgba(0, 0, 0, 0.78);
+  background-color: rgba(65, 64, 66, 0.78);
   color: white;
   box-shadow: 10px 10px 10px 10px black;
 }
 
 
 nav ul li:hover{
-  color: rgb(0, 178, 209);
-  font-weight: 400;
+  color: rgb(20, 202, 133);
 }
 
 nav ul li a.active:hover {
   color: white;
-  font-weight: 300;
 }
 
 .navLinks{
@@ -82,12 +80,12 @@ nav ul li a.active:hover {
 
 
 .socialLinks ul li a {
-  color: black;
+  color: rgb(65, 64, 66);
   font-size: 1.75rem;
 }
 
 .socialLinks ul li a:hover{
-  color: rgb(0, 178, 209);
+  color: rgb(20, 202, 133);
   font-weight: 400;
 }
 
@@ -102,7 +100,7 @@ main{
 }
 
 .selectedPage li{
-  background: black;
+  background: rgb(65, 64, 66);
   color: white;
   box-shadow: 0 5px 10px 2px rgba(55, 55, 55, 0.3);
 }
@@ -131,11 +129,12 @@ section h1{
 
 .home h2 {
   font-size: 6vh;
-  color: rgb(0, 178, 209);
+  color: rgb(235, 89, 51);
 }
 
 .home h3{
   font-size: 4vh;
+  color: rgb(65, 64, 66);
 }
 
 .homeHero{
@@ -146,7 +145,7 @@ section h1{
   height: 50vh;
   margin: 0;
   padding: 0;
-  background-image: url('../assets/homeHero.png');
+  background-image: url('../assets/computer-hands-no-blur.png');
   background-size: cover;
   box-shadow: 0 5px 10px 2px rgba(55, 55, 55, 0.3);
   z-index: -1;
@@ -186,6 +185,9 @@ section.about{
   width: 80vw;
 }
 
+.about h1{
+  color: rgb(235, 89, 51);
+}
 
 .about .arrows{
   width: 80vw;
@@ -206,11 +208,12 @@ section.about{
   margin: 10px;
   font-size: 2rem;
   cursor: pointer;
+  color: rgb(65, 64, 66);
 }
 
 .arrows i:hover{
   cursor: pointer;
-  color: rgb(0, 178, 209);
+  color: rgb(20, 202, 133);
 }
 
 .fa-arrow-circle-left{
@@ -219,6 +222,31 @@ section.about{
 
 .fa-arrow-circle-right{
   float: right;
+}
+
+.resumeButton{
+  align-self: center;
+  font-size: 1.5em;
+  background-color: rgb(65, 64, 66);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 2px rgba(55, 55, 55, 0.3);
+  font-weight: 200;
+  font-family: inherit;
+}
+
+.resumeButton:hover{
+  color: rgb(20, 202, 133);
+  cursor: pointer;
+}
+
+.resumeLinkDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 section.resume{
@@ -289,8 +317,9 @@ section.projects{
 }
 
 .projects h2{
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-style: italic;
+  color: rgb(235, 89, 51);
 }
 
 .projectLinks{
@@ -299,12 +328,12 @@ section.projects{
 
 .projectLinks i, .projectLinks i:visited, .projectLinks i:link{
   font-size: 2em;
-  color: black;
+  color: rgb(65, 64, 66);
   margin-right: 20px;
 }
 
 .projectLinks i:hover{
-  color: rgb(0, 178, 209)
+  color: rgb(20, 202, 133)
 }
 
 .projects p{
