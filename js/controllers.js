@@ -28,11 +28,11 @@ var projectList = [{
 
 var p1 = 'My name is Jon and I\'m a full stack web developer. I am passionate about using technology to solve real human problems. I am proficient in client-side and server-side javascript, HTML5, CSS3 & SQL but was taught to be language agnostic and apply the models of known langauages and frameworks to new environments.'
 
-var p2 = 'I grew up in the south, but moved to Colorado as soon as I could. Like any good Colorado transplant, I love dogs, the outdoors and craft beer. When I\'m not casting my fly rod or hiking with my Golden Retreiver Roxy, I enjoy studying Stoic philosophy and primitive living skills.'
+var p2 = 'I grew up in the south, but moved to Colorado as soon as I could. Like any good Colorado transplant, I love dogs, the outdoors and craft beer. When I\'m not casting my fly rod or hiking with my Golden Retreiver Roxy, I enjoy studying Stoic philosophy, primitive living skills, and homebrewing.'
 
-var p3 = 'I spent several years working in corporate operations and training a for large international franchisor. Ultimately, my desire to make things (and 2 weeks in the desert with nothing but a blanket, poncho and knife) led me to reassess my career and start learning to program.'
+var p3 = 'I spent several years working in corporate operations and training a for large international franchisor. Ultimately, my desire to make things (and 2 weeks in the desert with nothing but a blanket, poncho and knife) led me to reassess my career and start learning to program. I began by learning a little python and C but was eventually drawn to the web and javascript.'
 
-var p4 = 'After several months of teaching myself, I sought a more focused approach and decided to attend the Galvanize Full Stack Immersive Program in Denver. Now, I\'m ready to start building cool shit with cool people and continue my education in the real world.'
+var p4 = 'After several months of teaching myself, I sought a more focused approach and decided to attend the Galvanize Full Stack Immersive Program in Denver. Now, I\'m ready to start building cool stuff with cool people and continue my education in the real world.'
 
 
 var aboutSection = [
