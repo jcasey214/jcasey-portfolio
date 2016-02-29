@@ -32,7 +32,7 @@ var p2 = 'I grew up in the south, but moved to Colorado as soon as I could. Like
 
 var p3 = 'I spent several years working in corporate operations and training a for large international franchisor. Ultimately, my desire to make things (and 2 weeks in the desert with nothing but a blanket, poncho and knife) led me to reassess my career and start learning to program. I began by learning a little python and C but was eventually drawn to the web and javascript.'
 
-var p4 = 'After several months of teaching myself, I sought a more focused approach and decided to attend the Galvanize Full Stack Immersive Program in Denver. Now, I\'m ready to start building cool stuff with cool people and continue my education in the real world.'
+var p4 = 'After several months of teaching myself, I sought a more focused approach and decided to quit my job and attend the Galvanize Full Stack Immersive Program in Denver. Now, I\'m ready to start building cool stuff with cool people and continue my education in the real world.'
 
 
 var aboutSection = [
