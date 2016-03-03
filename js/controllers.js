@@ -26,7 +26,7 @@ var projectList = [{
 }];
 
 
-var p1 = 'My name is Jon and I\'m a full stack web developer. I am passionate about using technology to solve real human problems. I am proficient in client-side and server-side javascript, HTML5, CSS3 & SQL but was taught to be language agnostic and apply the models of known langauages and frameworks to new environments.'
+var p1 = 'My name is Jon and I am a full stack web developer. I am passionate about using technology to solve real human problems. I am proficient in client-side and server-side javascript, HTML5, CSS3 & SQL but was taught to be language agnostic and apply the models of known langauages and frameworks to new environments.'
 
 var p2 = 'I grew up in the south, but moved to Colorado as soon as I could. Like any good Colorado transplant, I love dogs, the outdoors and craft beer. When I\'m not casting my fly rod or hiking with my Golden Retreiver Roxy, I enjoy studying Stoic philosophy, primitive living skills, and homebrewing.'
 
