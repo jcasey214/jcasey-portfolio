@@ -8,6 +8,15 @@ var projectList = [{
   video: '<iframe width="420" height="315" src="https://www.youtube.com/embed/2lOGaYJfwPQ" frameborder="0" allowfullscreen></iframe>'
 },
 {
+  name: 'DrawLOL',
+  thumb: 'assets/drawlol.png',
+  technologies: 'Angular, Node, Express, MongoDB, Canvas, Fabric.js, Browserify',
+  description: 'DrawLOL is a digital version of the classic party game Paper Telephone. Participants create a game and invite their friends to join the room. Each player starts the game by writing a sentence which is then passed to the next player. The next player draws a picture based on that sentence which is passed to the next player who then writes a sentence about the picture. This continues until every player has contributed to every sheet. The sheets are then reviewed and hilarity ensues.',
+  github: 'https://github.com/jcasey214/drawlol-front',
+  url: 'http://www.drawlol.com',
+  video: '<iframe width="420" height="315" src="https://www.youtube.com/embed/fjGKepYhk-w" frameborder="0" allowfullscreen></iframe>'
+},
+{
   name: 'Griffinry',
   thumb: 'assets/griffinry.png',
   technologies: 'Node, Express, PostreSQL, Local Authentication and Google OAuth with Passport, Knexjs, Momentjs',
