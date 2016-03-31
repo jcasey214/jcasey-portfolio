@@ -295,7 +295,7 @@ section.resume{
 section.projects{
   position: absolute;
   top: 120px;
-  left: 10vw;
+  left: 3vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -309,7 +309,7 @@ section.projects{
   justify-content: space-between;
 }
 
-.projects>div{
+.projectShow{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -319,14 +319,31 @@ section.projects{
   align-items: center;
 }
 
-.projects>div>div{
+.clickDirections{
+  font-size: .7em;
+  color: black;
+  cursor: pointer;
+}
+
+.projectAll{
+  display: flex;
+  flex-direction: column;
+}
+
+.projects>div>div>div{
   width: 60%;
   margin-left: 5%;
+}
+
+h1.click{
+  font-size: 1.5rem;
+  color: rgb(65, 64, 66)
 }
 
 .projects img{
   width: 300px;
   height: 200px;
+  cursor: pointer;
 }
 
 .projects h2{
@@ -351,6 +368,15 @@ section.projects{
 
 .projects p{
   margin-top: 5px;
+}
+
+.videoDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  width: 100%;
 }
 
 /*media queries

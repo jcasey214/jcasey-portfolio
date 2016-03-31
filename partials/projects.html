@@ -1,17 +1,26 @@
 <section class="projects">
-  <div ng-repeat="project in projectList">
-    <img ng-src="{{project.thumb}}">
-    <div>
-      <div class="projectHeader">
-        <h1>{{project.name}}</h1>
-        <div class=projectLinks>
-          <a ng-href="{{project.github}}" target="_blank"><i class="fa fa-github"></i></a>
-          <a ng-href="{{project.url}}" target="_blank"><i class="fa fa-globe"></i></a>
+  <h1 class="click">Click Thumbnail to View Video Walkthroughs</h1>
+  <div ng-repeat="project in projectList" class="projectAll">
+    <div class="projectShow">
+      <img ng-src="{{project.thumb}}" ng-click="project.showVideo = !project.showVideo">
+      <div>
+        <div class="projectHeader">
+          <h1>{{project.name}}</h1>
+          <div class=projectLinks>
+            <a ng-href="{{project.github}}" target="_blank"><i class="fa fa-github"></i></a>
+            <a ng-href="{{project.url}}" target="_blank"><i class="fa fa-globe"></i></a>
+          </div>
         </div>
+        <h2><em>{{project.technologies}}</em></h2>
+        <p>{{project.description}}</p>
       </div>
-      <h2><em>{{project.technologies}}</em></h2>
-      <p>{{project.description}}</p>
-      </div>
-      <hr>
     </div>
+    <div ng-show="project.showVideo" class="videoDiv">
+      <iframe width="420" height="315" ng-src="{{trustSrc(project.video)}}" frameborder="0" allowfullscreen></iframe>
+      <p class="clickDirections" ng-click="project.showVideo = !project.showVideo">
+        Hide Video
+      </p>
+    </div>
+    <hr>
+  </div>
 </section>

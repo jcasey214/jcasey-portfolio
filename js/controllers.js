@@ -5,7 +5,8 @@ var projectList = [{
   description: 'Stumblr is a mobile-first social barhopping app. It utilizes the Google Maps API to find bars near your current location or any location you choose to enter. Twitter functionality is integrated and allows users to tweet when they arrive at a bar on their list and tweet the badges they earn for different benchmarks. Stumblr was built in a week and a half by myself and two classmates without any prior experience using react.',
   github: 'http://www.github.com/designateddrinkers/stumblr',
   url: 'http://www.github.com/designateddrinkers/stumblr',
-  video: '<iframe width="420" height="315" src="https://www.youtube.com/embed/2lOGaYJfwPQ" frameborder="0" allowfullscreen></iframe>'
+  video: "https://www.youtube.com/embed/2lOGaYJfwPQ",
+  showVideo: false
 },
 {
   name: 'DrawLOL',
@@ -14,7 +15,8 @@ var projectList = [{
   description: 'DrawLOL is a digital version of the classic party game Paper Telephone. Participants create a game and invite their friends to join the room. Each player starts the game by writing a sentence which is then passed to the next player. The next player draws a picture based on that sentence which is passed to the next player who then writes a sentence about the picture. This continues until every player has contributed to every sheet. The sheets are then reviewed and hilarity ensues.',
   github: 'https://github.com/jcasey214/drawlol-front',
   url: 'http://www.drawlol.com',
-  video: '<iframe width="420" height="315" src="https://www.youtube.com/embed/hFBkPksRRmI" frameborder="0" allowfullscreen></iframe>'
+  video: "https://www.youtube.com/embed/hFBkPksRRmI",
+  showVideo: false
 },
 {
   name: 'Griffinry',
@@ -23,7 +25,8 @@ var projectList = [{
   description: 'Griffinry is a browser based virtual pet game that allows users to adopt, interact with and care for virtual Griffins. Users can signup and login with a site-specific username/password or can choose to use google authentication. After signing up, they can adopt up to 3 griffins and choose their colors and names. Over time, pet health decreases and energy increases. To recuperate health, you can take your pet to gather food/supplies. Griffinry was my first full stack group app and was build using an agile workflow managed with pivotal tracker.',
   github: 'http://www.github.com/griffinry',
   url: 'http://www.griffinry.com',
-  video: '<iframe width="420" height="315" src="https://www.youtube.com/embed/D5DP6cTqO5k" frameborder="0" allowfullscreen></iframe>'
+  video: "https://www.youtube.com/embed/D5DP6cTqO5k",
+  showVideo: false
 },{
   name: 'myFlicks',
   thumb: 'assets/myFlicks.png',
@@ -31,7 +34,8 @@ var projectList = [{
   description: 'myFlicks is a movie search site that gives the user a simple clean search feature and indicates the availability of search results on Netflix streaming. Users can also save movies to their \'list\' to keep track of movies they want to see. Upon returning to the site, the user\'s list will be updated if the Netflix availability of any of their tracked films has changed. This was my first front-end application built after 4 weeks of Galvanize.',
   github: 'http://www.github.com/jcasey214/myFlicks',
   url: 'http://www.http://casey.g15.xyz/myFlicks/build/',
-  video: '<iframe width="420" height="315" src="https://www.youtube.com/embed/x0jfv_VS5F8" frameborder="0" allowfullscreen></iframe>'
+  video: "https://www.youtube.com/embed/x0jfv_VS5F8",
+  showVideo: false
 }];
 
 
@@ -72,10 +76,13 @@ app.controller('ResumeController', function($scope, $rootScope){
   $rootScope.currentPage = 'resume';
 });
 
-app.controller('ProjectsController', function($scope, $rootScope){
+app.controller('ProjectsController', function($scope, $rootScope, $sce){
   $scope.greeting = "Projects";
   $rootScope.currentPage = 'projects';
   $scope.projectList = projectList;
+  $scope.trustSrc = function(src) {
+    return $sce.trustAsResourceUrl(src);
+  };
 });
 
 app.controller('HomeController', function($scope){

@@ -23,6 +23,13 @@ app.config(function($routeProvider, $locationProvider){
   $locationProvider.html5Mode(true);
 });
 
+app.config(function($sceDelegateProvider) {
+  $sceDelegateProvider.resourceUrlWhitelist([
+    'self',
+    'https://www.youtube.com/**',
+    'https://s.youtube.com/**'
+  ]);
+});
 // function NavBarCtrl($scope){
 //   $scope.isCollapsed = true;
 // }
