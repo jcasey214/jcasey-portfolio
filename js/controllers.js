@@ -1,6 +1,6 @@
 var projectList = [{
   name: 'Stumblr',
-  thumb: 'assets/stumblrScaled.png',
+  thumb: 'assets/stumblr_small.png',
   technologies: 'React, MongoDB, Express, PassportJS, Browserify',
   description: 'Stumblr is a mobile-first social barhopping app. It utilizes the Google Maps API to find bars near your current location or any location you choose to enter. Twitter functionality is integrated and allows users to tweet when they arrive at a bar on their list and tweet the badges they earn for different benchmarks. Stumblr was built in a week and a half by myself and two classmates without any prior experience using react.',
   github: 'http://www.github.com/designateddrinkers/stumblr',
@@ -10,17 +10,17 @@ var projectList = [{
 },
 {
   name: 'DrawLOL',
-  thumb: 'assets/drawlol.png',
+  thumb: 'assets/drawlol_small.png',
   technologies: 'Angular, Node, Express, MongoDB, Canvas, Fabric.js, Browserify',
   description: 'DrawLOL is a digital version of the classic party game Paper Telephone. Participants create a game and invite their friends to join the room. Each player starts the game by writing a sentence which is then passed to the next player. The next player draws a picture based on that sentence which is passed to the next player who then writes a sentence about the picture. This continues until every player has contributed to every sheet. The sheets are then reviewed and hilarity ensues.',
   github: 'https://github.com/jcasey214/drawlol-front',
-  url: 'http://www.drawlol.com',
+  url: 'https://drawlol.com',
   video: "https://www.youtube.com/embed/hFBkPksRRmI",
   showVideo: false
 },
 {
   name: 'Griffinry',
-  thumb: 'assets/griffinry.png',
+  thumb: 'assets/griffinry_small.png',
   technologies: 'Node, Express, PostreSQL, Local Authentication and Google OAuth with Passport, Knexjs, Momentjs',
   description: 'Griffinry is a browser based virtual pet game that allows users to adopt, interact with and care for virtual Griffins. Users can signup and login with a site-specific username/password or can choose to use google authentication. After signing up, they can adopt up to 3 griffins and choose their colors and names. Over time, pet health decreases and energy increases. To recuperate health, you can take your pet to gather food/supplies. Griffinry was my first full stack group app and was build using an agile workflow managed with pivotal tracker.',
   github: 'http://www.github.com/griffinry',
@@ -29,7 +29,7 @@ var projectList = [{
   showVideo: false
 },{
   name: 'myFlicks',
-  thumb: 'assets/myFlicks.png',
+  thumb: 'assets/myFlicks_small.png',
   technologies: 'Javascript, Bootstrap, TMDB API, Netlix Availability API, Local Storage',
   description: 'myFlicks is a movie search site that gives the user a simple clean search feature and indicates the availability of search results on Netflix streaming. Users can also save movies to their \'list\' to keep track of movies they want to see. Upon returning to the site, the user\'s list will be updated if the Netflix availability of any of their tracked films has changed. This was my first front-end application built after 4 weeks of Galvanize.',
   github: 'http://www.github.com/jcasey214/myFlicks',
