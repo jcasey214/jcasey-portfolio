@@ -72,12 +72,10 @@ app.controller('AboutController', function($scope, $rootScope) {
 });
 
 app.controller('ResumeController', function($scope, $rootScope){
-  $scope.greeting = "Resume";
   $rootScope.currentPage = 'resume';
 });
 
 app.controller('ProjectsController', function($scope, $rootScope, $sce){
-  $scope.greeting = "Projects";
   $rootScope.currentPage = 'projects';
   $scope.projectList = projectList;
   $scope.trustSrc = function(src) {
